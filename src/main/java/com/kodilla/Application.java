@@ -10,9 +10,7 @@ public class Application {
 
         SpringApplication.run(Application.class, args);
 
-        Calculator myCalc = new Calculator();
-        System.out.println(myCalc.Sum(2,45));
-        System.out.println(myCalc.Subtract(67, 37));
+
     }
 
 }
